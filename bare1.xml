@@ -1,0 +1,40 @@
+<VAST version="4.2" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns="http://www.iab.com/VAST">
+    <Ad id="20001" >
+      <InLine>
+        <AdSystem version="1">iabtechlab</AdSystem>
+        <Error><![CDATA[https://example.com/error]]></Error>
+        <Impression id="Impression-ID"><![CDATA[https://example.com/track/impression]]></Impression>
+        <AdServingId>a532d16d-4d7f-4440-bd29-2ec05553fc80</AdServingId>
+        <AdTitle>Inline Simple Ad</AdTitle>
+        <AdVerifications></AdVerifications>
+        <Advertiser>IAB Sample Company</Advertiser>
+        <Category authority="https://www.iabtechlab.com/categoryauthority">AD CONTENT description category</Category>
+        <Creatives>
+          <Creative id="5480" sequence="1" adId="2447226">
+            <Linear>
+              <TrackingEvents>
+                <Tracking event="start" ><![CDATA[https://example.com/tracking/start]]></Tracking>
+                <Tracking event="progress" offset="00:00:10"><![CDATA[http://example.com/tracking/progress-10]]></Tracking>
+                <Tracking event="firstQuartile"><![CDATA[https://example.com/tracking/firstQuartile]]></Tracking>
+                <Tracking event="midpoint"><![CDATA[https://example.com/tracking/midpoint]]></Tracking>
+                <Tracking event="thirdQuartile"><![CDATA[https://example.com/tracking/thirdQuartile]]></Tracking>
+                <Tracking event="complete"><![CDATA[https://example.com/tracking/complete]]></Tracking>
+              </TrackingEvents>
+              <Duration>00:00:16</Duration>
+              <MediaFiles>
+                <MediaFile id="RMP" delivery="progressive" width="640" height="360" type="video/mp4" bitrate="524" scalable="true" maintainAspectRatio="true">
+                  <![CDATA[ https://www.radiantmediaplayer.com/vast/mp4s/ad-3s.mp4 ]]>
+              </MediaFile>
+              </MediaFiles>
+              <VideoClicks>
+                <ClickThrough id="blog">
+                  <![CDATA[https://iabtechlab.com]]>
+                </ClickThrough>
+              </VideoClicks>
+            </Linear>
+            <UniversalAdId idRegistry="Ad-ID">8465</UniversalAdId>
+          </Creative>
+        </Creatives>
+      </InLine>
+    </Ad>
+  </VAST>
