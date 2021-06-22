@@ -1,0 +1,20 @@
+<VAST version="4.0" xmlns="http://www.iab.com/VAST">
+    <Ad id="1" sequence="1">
+        <Wrapper>      
+            <VASTAdTagURI>
+                <![CDATA[https://raw.githubusercontent.com/disparate1/tags/main/bare1.xml]]>
+            </VASTAdTagURI>
+            <Error><![CDATA[CDATA[https://test.example.com/error1]]></Error>
+            <Impression><![CDATA[https://test.example.com/impression1]]></Impression>
+        </Wrapper>
+    </Ad>
+    <Ad id="2" sequence="2">
+        <Wrapper>        
+            <VASTAdTagURI>
+                <![CDATA[https://raw.githubusercontent.com/disparate1/tags/main/bare2.xml]]>
+            </VASTAdTagURI>
+            <Error><![CDATA[https://test.example.com/error2]]></Error>
+            <Impression><![CDATA[https://test.example.com/impression1]]></Impression>
+    </Wrapper>
+    </Ad>
+</VAST>
