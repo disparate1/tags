@@ -20,4 +20,11 @@
             </VASTAdTagURI>
         </Wrapper>
     </Ad>
+    <Ad id="ad4" sequence="4">
+        <Wrapper>
+            <VASTAdTagURI>
+                <![CDATA[https://ads.stickyadstv.com/www/delivery/swfIndex.php?reqType=AdsSetup&protocolVersion=2.0&zoneId=1957&loc=https%3A%2F%2Fformats.impactify.local%2F]]>
+            </VASTAdTagURI>
+        </Wrapper>
+    </Ad>
 </VAST>
